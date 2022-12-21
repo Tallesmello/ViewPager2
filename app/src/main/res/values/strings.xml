@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">ViewPager2</string>
+    <string name="viewpager2estrutura">View Pager2 Estrutura</string>
+    <string name="viewpager2carrosel">View Pager2 Carrosel</string>
+    <string name="teste">TESTE UM</string>
+    <string name="teste_one">O Melhor</string>
+    <string name="teste_two">Desenho</string>
+    <string name="teste_three">De Todos</string>
+    <string name="teste_four">Os Tempos</string>
 </resources>

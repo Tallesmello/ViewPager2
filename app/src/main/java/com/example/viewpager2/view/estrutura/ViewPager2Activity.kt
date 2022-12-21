@@ -1,12 +1,12 @@
-package com.example.viewpager2
+package com.example.viewpager2.view.estrutura
 
-import android.media.audiofx.AudioEffect
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.viewpager2.widget.ViewPager2
+import com.example.viewpager2.R
 import me.relex.circleindicator.CircleIndicator3
 
-class MainActivity : AppCompatActivity() {
+class ViewPager2Activity : AppCompatActivity() {
 
     private var titlesList = mutableListOf<String>()
     private var detailsList = mutableListOf<String>()
@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_view_pager2)
 
         postToList()
 

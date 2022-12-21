@@ -3,7 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/talle/AndroidStudioProjects/ViewPager2/app/src/main/res/layout/activity_main.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/talle/AndroidStudioProjects/ViewPager2/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/talle/AndroidStudioProjects/ViewPager2/app/src/main/res/layout/activity_main2.xml" value="0.24074074074074073" />
+        <entry key="..\:/Users/talle/AndroidStudioProjects/ViewPager2/app/src/main/res/layout/activity_view_pager2_carrossel.xml" value="0.24074074074074073" />
+        <entry key="..\:/Users/talle/AndroidStudioProjects/ViewPager2/app/src/main/res/layout/item_carrossel.xml" value="0.25" />
         <entry key="..\:/Users/talle/AndroidStudioProjects/ViewPager2/app/src/main/res/layout/item_pager.xml" value="0.27291666666666664" />
       </map>
     </option>
