@@ -8,6 +8,13 @@ import com.example.viewpager2.model.ModelCarrosselVO
 
 class ViewPager2CarrosselActivity : AppCompatActivity() {
 
+    companion object {
+        const val PROGRESS_ONE = 25
+        const val PROGRESS_TWO = 50
+        const val PROGRESS_THREE = 75
+        const val PROGRESS_FOUR = 100
+    }
+
     private val viewPager2Carrossel by lazy { findViewById<ViewPager2>(R.id.vp_carrossel) }
 
     private var carrosselList = mutableListOf<ModelCarrosselVO>()
@@ -41,22 +48,22 @@ class ViewPager2CarrosselActivity : AppCompatActivity() {
         addToList(
             R.drawable.rick1,
             getString(R.string.teste_one),
-            25
+            PROGRESS_ONE
         )
         addToList(
             R.drawable.rick2,
             getString(R.string.teste_two),
-            50
+            PROGRESS_TWO
         )
         addToList(
             R.drawable.rick3,
             getString(R.string.teste_three),
-            75
+            PROGRESS_THREE
         )
         addToList(
             R.drawable.rick4,
             getString(R.string.teste_four),
-            100
+            PROGRESS_FOUR
         )
 
     }
